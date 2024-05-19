@@ -1,0 +1,44 @@
+/* Hero Section  */
+.hero-section{
+    background-color: #2F40AD;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    margin-top: 2rem;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 17rem;
+}
+
+.hero-text{
+    padding-top: 1rem;
+    width: 70%;
+    font-family: "Wix Madefor Text", sans-serif;
+}
+
+.hero-text h1{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 300;
+    color: white;
+    padding-left: 3rem;
+}
+
+.hero-text p{
+    font-size: 1.2rem;
+    color: white;
+    padding-left: 12rem;
+}
+
+.hero-buttons{
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+
+.hero-buttons button{
+    padding: 10px;
+}
