@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    font-family: "Wix Madefor Text", sans-serif;
+    margin-top: 1rem;
+}
+
+.logo{
+    width: 9%;
+    margin-left: 1rem;
+    /* margin-top: 0.70rem; */
+}
+
+.logo img{
+    width: 85px;
+    cursor: pointer;
+}
+
+.nav-list-items{
+    display: flex;
+    width: 70%;
+}
+
+.line{
+    background-color: black;
+    width: 1px;
+    height: 19px;
+    filter: opacity(50%);
+    margin-left: 1rem;
+    margin-top: 0.50rem;
+}
+
+#line-2{
+    height: 21px;
+    margin-bottom: 0.10rem;
+}
+
+.nav-list-items li{
+    list-style: none;
+    margin-left: 1.1rem;
+    font-size: 1rem;
+    margin-top: 0.50rem;
+}
+
+.nav-list-items li:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.icon{
+    margin-top: 0.60rem;
+    /* font-size: 1.3rem; */
+}
+
+.icon i{
+    font-size: 1.3rem;
+}
+
+.icon i:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.buttons{
+    margin-left: 0.55rem;
+    /* margin-top: 0.03rem; */
+}
+
+.buttons a{
+    color: black;
+    font-size: 1.1rem;
+}
+
+.buttons a:hover{
+    color: blue;
+}
+
+.buttons button{
+    background-color: #166aea;
+    border: none;
+    border-radius: 30px;
+    width: 9.3rem;
+    padding: 12px;
+    font-size: 0.98rem;
+    color: white;
+    margin-left: 0.70rem;
+    cursor: pointer;
+}
+
+
+svg{
+    margin-top: 0.50rem;
+    margin-left: 0.26rem;
+}
+
+/* Hero Section  */
+.hero-section{
+    background-color: #2F40AD;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    margin-top: 2rem;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 17rem;
+}
+
+.hero-text{
+    padding-top: 1rem;
+    width: 70%;
+    font-family: "Wix Madefor Text", sans-serif;
+}
+
+.hero-text h1{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 300;
+    color: white;
+    padding-left: 3rem;
+}
+
+.hero-text p{
+    font-size: 1.2rem;
+    color: white;
+    padding-left: 12rem;
+}
+
+.hero-buttons{
+    padding-top: 2rem;
+    padding-left: 10rem;
+}
+
+.hero-buttons button{
+    padding: 10px;
+}
